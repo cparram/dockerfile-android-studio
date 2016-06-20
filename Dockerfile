@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y --force-yes \
 
 # Install dependencies
 RUN dpkg --add-architecture i386 && apt-get update && apt-get install -y --force-yes \
-		curl \
+        curl \
         unzip \
         libc6-i386 \
         lib32z1 \
